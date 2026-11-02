@@ -1,0 +1,31 @@
+@"
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Private face datasets
+dataset/
+
+# Generated model files
+models/*.yml
+models/labels.txt
+
+# Temporary test files
+test_save.py
+webcam_test.py
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+"@ | Set-Content .gitignore
